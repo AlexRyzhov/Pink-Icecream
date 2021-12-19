@@ -15,14 +15,28 @@
   font-size: 36px;
   line-height: 1.15;
   letter-spacing: 0.04em;
+  color: rgba(212, 20, 67, 1);
+  margin-bottom: 13px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 15px;
+  }
 }
 .advantages_subtitle::before {
   content: '';
   width: 50px;
   height: auto;
+  text-align: left;
+  margin-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 36px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 40px;
+  }
 }
 .advantages_text {
   font-weight: 700;
   font-size: 12px;
   line-height: 1.7;
+  color: rgba(0, 0, 0, 1);
 }
