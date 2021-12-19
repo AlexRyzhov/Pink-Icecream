@@ -58,6 +58,139 @@ img {
   }
 }
 
+.header {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+}
+
+.header__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 37px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  text-decoration: none;
+  color: #d41443;
+  font-family: Titan One;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.header-menu {
+  display: none;
+  margin-left: 110px;
+}
+
+@media screen and (min-width: 1200px) {
+  .header-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.header-menu__link {
+  height: 100%;
+  display: block;
+  color: #ffffff;
+  font-family: 'DM Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.header-menu__link:hover, .header-menu__link:focus {
+  color: #d41443;
+}
+
+.header-menu__item {
+  color: #000000;
+}
+
+.header-menu__item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.button {
+  border: 0px;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+.header__button {
+  background-color: #ffffff;
+  color: #d41443;
+  width: 159px;
+  height: 44px;
+  font-size: 16px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  -webkit-transition: 250ms linear;
+  transition: 250ms linear;
+}
+
+.header__button:hover, .header__button:focus {
+  background-color: #ecebeb;
+}
+
+@media screen and (min-width: 320px) {
+  .header__button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__button {
+    display: block;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__button {
+    display: block;
+    margin-left: 110px;
+  }
+}
+
+.header__button::after {
+  content: '';
+  margin-left: 15px;
+}
+
+.header__button::after {
+  content: '';
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 665px;
+  background-color: #ffb8ca;
+}
+
+.hero-container {
+  padding-top: 171px;
+}
+
 .products__about {
   text-align: center;
   text-transform: uppercase;
@@ -127,3 +260,4 @@ img {
 .article-section__site--paragraph {
   width: 179px;
 }
+/*# sourceMappingURL=main.css.map */
