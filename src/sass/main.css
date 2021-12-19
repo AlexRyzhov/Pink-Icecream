@@ -58,17 +58,39 @@ img {
   }
 }
 
+.products {
+  padding-top: 121px;
+}
+
+@media screen and (min-width: 768px) {
+  .products {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .products {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .products {
+    padding-top: 60px;
+  }
+}
+
 .products__about {
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.15;
+  margin-bottom: 15px;
 }
 
 .products__title {
-  margin-bottom: 200px;
+  margin-bottom: 150px;
   text-align: center;
   text-transform: uppercase;
   font-size: 34px;
@@ -76,40 +98,116 @@ img {
   line-height: 1.15;
 }
 
-.products__lisl {
+@media screen and (min-width: 768px) {
+  .products__title {
+    margin-bottom: 170px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .products__title {
+    padding-top: 0px;
+  }
+}
+
+.products__list {
   width: 100%;
 }
 
-.products__icon {
+@media screen and (min-width: 768px) {
+  .products__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.products__item {
   display: block;
   padding: 146px 0 41px;
-  max-width: 480px;
+  margin-bottom: 230px;
+  max-width: 350px;
   height: auto;
   position: relative;
   border-radius: 24px;
   background-color: #ffb8ca;
 }
 
-.products__icon::before {
+@media screen and (min-width: 768px) {
+  .products__item {
+    width: 220px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .products__item {
+    width: 335px;
+  }
+}
+
+.first {
+  background-color: #ffb8ca;
+}
+
+.second {
+  background-color: #f0d1a5;
+}
+
+.third {
+  background-color: #c2e297;
+}
+
+.first::before {
   content: '';
   position: absolute;
-  left: 0;
-  top: -55%;
-  width: 335px;
-  height: 335px;
+  left: auto;
+  top: -50%;
+  width: 100%;
+  height: 252px;
+  background-image: url("../images/Productsmobilka1@1x.png");
   background-repeat: no-repeat;
-  background-size: 335px 335px;
+  /* background-size: 335px 335px; */
+}
+
+.second::before {
+  content: '';
+  position: absolute;
+  left: auto;
+  top: -50%;
+  width: 100%;
+  height: 252px;
+  background-image: url("../images/Productsmobilka2@1x.png");
+  background-repeat: no-repeat;
+}
+
+.third::before {
+  content: '';
+  position: absolute;
+  left: auto;
+  top: -50%;
+  width: 100%;
+  height: 252px;
+  background-image: url("../images/Productsmobilka3@1x.png");
+  background-repeat: no-repeat;
 }
 
 .products__name {
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Titan One;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.15;
   color: #ffffff;
+}
+
+.products__text {
+  padding: 0 30px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.52;
 }
 
 .products__name::after {
@@ -121,6 +219,179 @@ img {
   height: 335px;
   background-repeat: no-repeat;
   background-size: 335px 335px;
+}
+
+.advantages {
+  background-color: #fff5f6;
+}
+
+.advantages-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages-list {
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .advantages-item {
+    margin-bottom: 38px;
+  }
+}
+
+.advantages-subtitle__primary,
+.advantages-subtitle__secondary,
+.advantages-subtitle__third {
+  font-family: Titan One;
+  font-size: 36px;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  color: #d41443;
+  margin-bottom: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-subtitle__primary,
+  .advantages-subtitle__secondary,
+  .advantages-subtitle__third {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages-subtitle__primary,
+  .advantages-subtitle__secondary,
+  .advantages-subtitle__third {
+    font-size: 58px;
+    margin-bottom: 15px;
+  }
+}
+
+.advantages-subtitle__primary.advantages-subtitle__primary::before,
+.advantages-subtitle__secondary.advantages-subtitle__primary::before,
+.advantages-subtitle__third.advantages-subtitle__primary::before {
+  content: '';
+  display: block;
+  background-repeat: no-repeat;
+  width: 33px;
+  height: 50px;
+  margin-bottom: 16px;
+  background-image: url(../images/advantages_icon1.png);
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-subtitle__primary.advantages-subtitle__primary::before,
+  .advantages-subtitle__secondary.advantages-subtitle__primary::before,
+  .advantages-subtitle__third.advantages-subtitle__primary::before {
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages-subtitle__primary.advantages-subtitle__primary::before,
+  .advantages-subtitle__secondary.advantages-subtitle__primary::before,
+  .advantages-subtitle__third.advantages-subtitle__primary::before {
+    margin-bottom: 40px;
+  }
+}
+
+.advantages-subtitle__primary.advantages-subtitle__secondary::before,
+.advantages-subtitle__secondary.advantages-subtitle__secondary::before,
+.advantages-subtitle__third.advantages-subtitle__secondary::before {
+  content: '';
+  display: block;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  text-align: left;
+  margin-bottom: 16px;
+  background-image: url(../images/advantages_icon2.png);
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-subtitle__primary.advantages-subtitle__secondary::before,
+  .advantages-subtitle__secondary.advantages-subtitle__secondary::before,
+  .advantages-subtitle__third.advantages-subtitle__secondary::before {
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages-subtitle__primary.advantages-subtitle__secondary::before,
+  .advantages-subtitle__secondary.advantages-subtitle__secondary::before,
+  .advantages-subtitle__third.advantages-subtitle__secondary::before {
+    margin-bottom: 40px;
+  }
+}
+
+.advantages-subtitle__primary.advantages-subtitle__third::before,
+.advantages-subtitle__secondary.advantages-subtitle__third::before,
+.advantages-subtitle__third.advantages-subtitle__third::before {
+  content: '';
+  display: block;
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 50px;
+  text-align: left;
+  margin-bottom: 16px;
+  background-image: url(../images/advantages_icon3.png);
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-subtitle__primary.advantages-subtitle__third::before,
+  .advantages-subtitle__secondary.advantages-subtitle__third::before,
+  .advantages-subtitle__third.advantages-subtitle__third::before {
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages-subtitle__primary.advantages-subtitle__third::before,
+  .advantages-subtitle__secondary.advantages-subtitle__third::before,
+  .advantages-subtitle__third.advantages-subtitle__third::before {
+    margin-bottom: 40px;
+  }
+}
+
+.advantages-text {
+  width: 230px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.7;
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-text {
+    width: 174px;
+    font-size: 14px;
+    line-height: 1.74;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advantages-text {
+    width: 260px;
+    font-size: 16px;
+    line-height: 1.76;
+    letter-spacing: 0.02em;
+  }
 }
 
 li {
@@ -143,8 +414,7 @@ a {
   border: 0;
   padding: 0;
   white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -211,16 +481,10 @@ a {
 }
 
 .article-section__site {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 220px;
-  -webkit-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-          box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
   margin: 0 0 20px 0;
   background-color: #ffffff;
@@ -273,16 +537,9 @@ a {
 }
 
 .article-section__list--link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .article-section__list--locations,
@@ -297,4 +554,3 @@ a {
 .article-section__list--locations {
   margin-bottom: 10px;
 }
-/*# sourceMappingURL=main.css.map */
