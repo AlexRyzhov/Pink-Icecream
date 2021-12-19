@@ -3,3 +3,8 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+.article-section__site--city,
+.article-section__site--paragraph {
+  width: 179px;
+}
+/*# sourceMappingURL=main.css.map */
