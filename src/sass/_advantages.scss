@@ -10,3 +10,19 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.advantages_subtitle {
+  font-family: Titan One;
+  font-size: 36px;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+}
+.advantages_subtitle::before {
+  content: '';
+  width: 50px;
+  height: auto;
+}
+.advantages_text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.7;
+}
