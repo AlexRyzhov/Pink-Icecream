@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": ";AAAA;;;GAGG;AOHH,AAAA,4BAA4B;AAC5B,iCAAiC,CAAC;EAChC,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "main.scss",
+        "_header.scss",
+        "_products.scss",
+        "_about.scss",
+        "_advantages.scss",
+        "_gallery.scss",
+        "_customer.scss",
+        "_contacts.scss",
+        "_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
