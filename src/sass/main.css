@@ -892,7 +892,6 @@ li {
   width: 220px;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
-  margin: 0 0 20px 0;
   background-color: #ffffff;
 }
 
@@ -900,10 +899,6 @@ li {
   .article-section__site {
     margin-right: 20px;
   }
-}
-
-.article-section__site:last-child {
-  margin-bottom: 54px;
 }
 
 @media screen and (min-width: 768px) {
