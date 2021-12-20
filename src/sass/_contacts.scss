@@ -2,13 +2,10 @@ li {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-}
-
 .article-section {
   background-color: #fff5f6;
   width: auto;
+
   padding: 89px 44px 113px 56px;
 
   @media screen and (min-width: 768px) {
@@ -18,6 +15,7 @@ a {
   @media screen and (min-width: 1200px) {
     padding: 132px 115px 165px 115px;
   }
+
 }
 
 .visually-hidden {
@@ -27,7 +25,6 @@ a {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -38,6 +35,7 @@ a {
 .article-section__site--paragraph {
   width: 179px;
 }
+
 .article-section__site--city {
   margin-bottom: 10px;
   margin-top: 0;
@@ -93,12 +91,17 @@ a {
 }
 
 .article-section__navigation {
+
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0;
 
   @media screen and (min-width: 768px) {
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+
     flex-direction: row;
     justify-content: center;
   }
@@ -110,12 +113,13 @@ a {
   width: 220px;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
-  margin: 0 0 20px 0;
+  // margin: 0 0 20px 0;
   background-color: #ffffff;
 
   @media screen and (min-width: 768px) {
     margin-right: 20px;
   }
+
 
   @media screen and (min-width: 1200px) {
     width: 330px;
@@ -127,6 +131,12 @@ a {
 }
 
 .article-section__site:last-child {
+
+}
+
+.article-section__site:last-child {
+  // margin-bottom: 54px;
+
   @media screen and (min-width: 768px) {
     margin-bottom: auto;
     margin-right: 0;
@@ -177,8 +187,12 @@ a {
 
 .article-section__list--link {
   display: flex;
+
   flex-wrap: wrap;
   justify-content: center;
+
+  flex-direction: column;
+  align-items: baseline;
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
@@ -193,12 +207,19 @@ a {
   text-align: center;
   padding: 10px 0 10px 0;
   border-radius: 22px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .article-section__list--locations {
   margin-bottom: 10px;
 
   @media screen and (min-width: 768px) {
+
     margin: 0 15px 10px 0;
+
+    margin-right: 15px;
+
   }
 }
