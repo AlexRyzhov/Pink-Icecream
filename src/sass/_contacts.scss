@@ -6,9 +6,11 @@ a {
   text-decoration: none;
 }
 
+
 .article-section {
   background-color: #fff5f6;
   width: auto;
+
   padding: 89px 44px 113px 56px;
 
   @media screen and (min-width: 768px) {
@@ -18,7 +20,9 @@ a {
   @media screen and (min-width: 1200px) {
     padding: 132px 115px 165px 115px;
   }
+
 }
+
 
 .visually-hidden {
   position: absolute;
@@ -38,6 +42,7 @@ a {
 .article-section__site--paragraph {
   width: 179px;
 }
+
 .article-section__site--city {
   margin-bottom: 10px;
   margin-top: 0;
@@ -109,12 +114,14 @@ a {
   }
 }
 
+
 .article-section__site {
   display: flex;
   flex-direction: column;
   width: 220px;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
+
   margin: 0 0 20px 0;
   background-color: #ffffff;
 
@@ -143,6 +150,7 @@ a {
     margin-bottom: auto;
     margin-right: 0;
   }
+
 }
 
 .article-section__site--locations {
@@ -152,10 +160,12 @@ a {
   border-radius: 4px;
   margin: 43px 120px 25px 20px;
   text-align: center;
+
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 186%;
+
 }
 
 .article-section__site--locations-second {
@@ -165,6 +175,7 @@ a {
   border-radius: 4px;
   text-align: center;
   margin: 43px 120px 25px 20px;
+
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -176,6 +187,7 @@ a {
   font-size: 12px;
   line-height: 150%;
   color: #907e82;
+
 }
 
 .article-section__site--city,
@@ -186,6 +198,7 @@ a {
 .article-section__link--mail {
   margin-left: 20px;
 }
+
 
 .article-section__list--link {
   display: flex;
