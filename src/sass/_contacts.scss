@@ -1,10 +1,4 @@
-li {
-  list-style: none;
-}
 
-a {
-  text-decoration: none;
-}
 
 
 .article-section {
@@ -31,7 +25,6 @@ a {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -113,7 +106,6 @@ a {
     justify-content: center;
   }
 }
-
 
 .article-section__site {
   display: flex;
@@ -200,6 +192,8 @@ a {
 }
 
 
+
+
 .article-section__list--link {
   display: flex;
 
@@ -238,4 +232,8 @@ a {
     margin-right: 15px;
 
   }
+
 }
+
+
+
