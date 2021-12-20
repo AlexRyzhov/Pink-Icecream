@@ -6,10 +6,14 @@ a {
   text-decoration: none;
 }
 
+<<<<<<< Updated upstream
 .article-section {
   background-color: #fff5f6;
+  width: auto;
 }
 
+=======
+>>>>>>> Stashed changes
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -28,6 +32,7 @@ a {
 .article-section__site--paragraph {
   width: 179px;
 }
+<<<<<<< Updated upstream
 .article-section__site--city {
   margin-bottom: 10px;
   margin-top: 0;
@@ -89,6 +94,8 @@ a {
     justify-content: center;
   }
 }
+=======
+>>>>>>> Stashed changes
 
 .article-section__site {
   display: flex;
@@ -96,6 +103,7 @@ a {
   width: 220px;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
+<<<<<<< Updated upstream
   margin: 0 0 20px 0;
   background-color: #ffffff;
 
@@ -110,6 +118,8 @@ a {
     margin-bottom: auto;
     margin-right: 0;
   }
+=======
+>>>>>>> Stashed changes
 }
 
 .article-section__site--locations {
@@ -119,10 +129,13 @@ a {
   border-radius: 4px;
   margin: 43px 120px 25px 20px;
   text-align: center;
+<<<<<<< Updated upstream
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 186%;
+=======
+>>>>>>> Stashed changes
 }
 
 .article-section__site--locations-second {
@@ -132,6 +145,7 @@ a {
   border-radius: 4px;
   text-align: center;
   margin: 43px 120px 25px 20px;
+<<<<<<< Updated upstream
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -143,6 +157,8 @@ a {
   font-size: 12px;
   line-height: 150%;
   color: #907e82;
+=======
+>>>>>>> Stashed changes
 }
 
 .article-section__site--city,
@@ -153,6 +169,7 @@ a {
 .article-section__link--mail {
   margin-left: 20px;
 }
+<<<<<<< Updated upstream
 
 .article-section__list--link {
   display: flex;
@@ -184,3 +201,5 @@ a {
     margin-right: 15px;
   }
 }
+=======
+>>>>>>> Stashed changes
