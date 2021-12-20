@@ -387,7 +387,6 @@ img {
   background-size: 335px 335px;
 }
 
-
 .about {
   background-color: #fff5f6;
   padding-top: 125px;
@@ -796,21 +795,14 @@ img {
   }
 }
 
-
 li {
   list-style: none;
 }
-
-a {
-  text-decoration: none;
-}
-
 
 .article-section {
   background-color: #fff5f6;
   width: auto;
 }
-
 
 .visually-hidden {
   position: absolute;
@@ -820,18 +812,7 @@ a {
   border: 0;
   padding: 0;
   white-space: nowrap;
-
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-
-
   clip-path: inset(100%);
-
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-
-  clip-path: inset(100%);
-
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -840,7 +821,6 @@ a {
 .article-section__site--paragraph {
   width: 179px;
 }
-
 
 .article-section__site--city {
   margin-bottom: 10px;
@@ -931,20 +911,6 @@ a {
     margin-bottom: auto;
     margin-right: 0;
   }
-
-.article-section__site {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 220px;
-  -webkit-box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-          box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-  border-radius: 24px;
-
 }
 
 .article-section__site--locations {
@@ -954,13 +920,10 @@ a {
   border-radius: 4px;
   margin: 43px 120px 25px 20px;
   text-align: center;
-
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 186%;
-
-
 }
 
 .article-section__site--locations-second {
@@ -970,7 +933,6 @@ a {
   border-radius: 4px;
   text-align: center;
   margin: 43px 120px 25px 20px;
-
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -982,7 +944,6 @@ a {
   font-size: 12px;
   line-height: 150%;
   color: #907e82;
-
 }
 
 .article-section__site--city,
@@ -993,7 +954,6 @@ a {
 .article-section__link--mail {
   margin-left: 20px;
 }
-
 
 .article-section__list--link {
   display: flex;
@@ -1029,8 +989,3 @@ a {
     margin-right: 15px;
   }
 }
-
-/*# sourceMappingURL=main.css.map */
-
-/*# sourceMappingURL=main.css.map */
-
