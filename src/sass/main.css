@@ -1155,13 +1155,13 @@ li {
 
 @media screen and (min-width: 768px) {
   .article-section__list--locations {
-
+margin-right: 15px;
     margin: 0 15px 10px 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
 
-    margin-right: 15px;
-  }
-}
+    
+
+
 
