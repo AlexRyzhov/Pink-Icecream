@@ -127,12 +127,16 @@
   }
 }
 
+
 // .article-section__site:last-child {
 
 // }
 
 .article-section__site:last-child {
   margin-bottom: 54px;
+
+.article-section__site:last-child {
+
   // margin-bottom: 54px;
   @media screen and (min-width: 768px) {
     margin-bottom: auto;
